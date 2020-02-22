@@ -1,0 +1,221 @@
+ /* -------------------------------------------------------BODY ------------------------------------------------- */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+     background-color: #f2f2f2;
+ }
+ 
+header.img-fluid w-70{
+     width: 150px;
+     position: fixed;
+ }
+ /* -------------------------------------------------------HEADER ------------------------------------------------- */
+
+.header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    border: 1px solid red;
+}
+.container .presentation{
+    width: 60%;
+    font-size: 18px;
+    line-height: unset;
+}
+
+div.row.desc {
+
+    margin-top: -5%;
+    margin-left: -14%;
+    padding-bottom: 4%;
+
+}
+ /* ------------ MENU ------------ */
+#navbarNav {
+    margin-left: 16rem;
+    font-size: 20px;
+    padding: 25px;
+    position: absolute;
+    top: -110px;    
+}
+#navbarNav li{
+    padding-left: 18px;
+}
+
+
+/* ----------- MENU FOOTER ----- */
+footer{
+    width: 100%;
+    height: 400px;
+    padding: 25px 0 25px 0;
+}
+#footer{
+    display: inline-block;
+    background-color:#232323;
+    color: #fff;
+}
+footer .footer-ul{
+    cursor: pointer;
+    padding: 12px;
+    font-size: 20px;
+    color: #F29727;
+    font-family: 'Maven Pro';
+    width: 230px;
+    list-style-type: none;;
+}
+.list-unstyled li a:hover{
+    color: white;
+}
+
+footer div img.logoresou{
+    width: 10%;
+    cursor: pointer;
+}
+#frondBlanche{
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+}
+iframe{
+    width: 100%;
+    height: 160px;
+}
+
+/* =========================== PAGE SPA ===================================== */
+
+
+/* --------------MAIN------------ */
+
+.sointotal {
+    display: flex;
+    flex-direction: row;
+}
+
+.soin.trois {
+    padding-left: 30%;
+}
+
+div.card {
+    border-radius: 25px 0 25px 0 !important;
+    background-color: #f2f2f2 !important;
+    width: 25rem !important;
+}
+
+img.card-img-top {
+    border-radius: 25px 0 25px 0 !important;
+
+}
+
+div.row.soin {
+        margin-left: -20%;
+}
+
+h5{
+    font-weight: bold !important;
+    text-align: center;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+img.prixtotalhaut {
+    border-radius: 25px 0 25px 0;
+    background-color: #f2f2f2;
+    margin-left: 10px;
+    margin-top: 20%;
+    margin-right: 0;
+}
+
+div.row.prix {
+    border: 1px solid pink;
+    margin-left: -20%;
+    padding-right: 20%;
+}
+
+.row.haut, .row.bas {
+    border: 1px solid purple;
+    margin-top: -18%;
+}
+
+.container.prixtotal {
+    display: flex;
+    flex-direction: row;
+}
+
+h1.prix {
+    text-align: center;
+    margin-left: 80%;
+}
+
+p.prix {
+    margin-left: 10%;
+    text-align: justify;
+}
+
+div.row.haut {
+    margin-top: 15%;
+    margin-left: 0px;
+    width: 860px;
+}
+
+img.prixtotalbas {
+    border-radius: 25px 0 25px 0;
+    background-color: #f2f2f2;
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+.container.rdv {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid grey ; */
+    padding-right: 5%;
+    border-radius: 25px 0 25px 0;
+    background-color: #f2f2f2;
+    padding-bottom: 2%;
+    margin-top: 0px;
+    padding-bottom: 1%;
+    padding-left: 4%;
+    padding-top: 3%;
+}
+
+.input, .datepickerSoin {
+    /* border: 1px solid blue; */
+    width: 50% !important;
+}
+
+input#datepickerSoin {
+    width: 500px;
+}
+
+input::placeholder {
+    color: black;
+    font-size: 2rem;
+  }
+
+select {
+    height: 40px !important;
+    padding-bottom: 2%;
+    padding-top: 5%;
+    font-size: 2rem !important;
+}
+
+.titlesoin {
+    text-align: center;
+    margin-top: 5%;
+    color: grey;
+}
+
+button {
+    margin-left: 90%;
+}
+
+a.text-light {
+    text-decoration: none !important;
+    margin-left: 20%;
+}
